@@ -1,4 +1,4 @@
-# # Combining Physics-Based Protein–DNA Energetics with Machine Learning to Predict Interpretable Max–Max Transcription Factor–DNA Binding
+# Combining Physics-Based Protein–DNA Energetics with Machine Learning to Predict Interpretable Max–Max Transcription Factor–DNA Binding
 
 This repository contains data, code, and analysis scripts for predicting transcription factor (TF) binding affinities using physically meaningful energy features derived from **Molecular Mechanics-Generalized Born Surface Area (MMGBSA)** calculations and **machine learning (ML)**.
 We specifically focus on the **Max/Max homodimer** transcription factor system, extending and adapting the methodology from Carmen Al Masri’s [Myc/Max study](https://github.com/calmasri7/ML-Protein-DNA-Binding-Affinity).
