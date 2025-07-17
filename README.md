@@ -16,9 +16,13 @@ Max-Max_scripts/
 ### gcPBM
 
 Experimental datasets, including genomic-context protein-binding microarray (gcPBM) data and universal PBM (uPBM) 8-mer binding affinity scores.
-Load input data (uPBM and gcPBM) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2746660 and https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2579596 respectively.
-Clean the max-max gcPBM data from GSM2579596_Max_rawdata.txt to only have rows corresponding to actual gene sequences. Get rid of rows with 'DarkCorner' or 'GE_BrightCorner' for example.
-Then separate this max-max gcPBM dataset into a probe_sequences file and a normalized_intensity file. The script to perform this data cleaning is provided in /scripts/gcPBM_cleaning.ipynb 
+Load input data (uPBM and gcPBM): 
+- `gcPBM_probe_sequence.txt` — contains just the 36 bp sequences.
+Obtained from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL17173
+- `gcPBM_max_normalized_intensity.txt` — contains the raw Alexa488 intensity values.
+Obtained from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1447392
+- `GSM2746660_Max_8mers_11111111.txt` - contains the Universal PBM 8-mer E-scores
+Obtained from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2746660
 
 ### scripts
 
